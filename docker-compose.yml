@@ -1,0 +1,10 @@
+services:
+  python-terminal:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: python-terminal
+    stdin_open: true
+    tty: true
+    volumes:
+      - .:/code
