@@ -13,7 +13,7 @@ from collections import Counter
 
 # Config
 FILE_PATH = "inputs/2024-12-11-Input.txt"
-BLINKS = 25
+BLINKS = 75
 
 # ---------------------------------------------------------
 # Helper functions
